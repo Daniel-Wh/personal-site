@@ -29,7 +29,15 @@ const UL = styled.ul`
     position: relative;
     right: 50px;
 `
-
+const P = styled.p`
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    :hover {
+        cursor: pointer;
+        color: grey;
+    }
+`
 
 
 
@@ -41,16 +49,16 @@ export const Header = ()=>{
             <ULbox>
                 <UL>
                     <li>
-                        <p>Home</p>
+                        <P>Home</P>
                     </li>
                     <li>
-                        <p>About</p>
+                        <P>About</P>
                     </li>
                     <li>
-                        <p>Portfolio</p>
+                        <P>Portfolio</P>
                     </li>
                     <li>
-                        <p>Contact</p>
+                        <P>Connect</P>
                     </li>
                 </UL>
             </ULbox>
